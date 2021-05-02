@@ -1,0 +1,11 @@
+body {
+	background-color: #0f0f0f;
+}
+
+.box {
+	height: 250px;
+	width: 250px;
+	margin-top: 20px;
+	margin-left: 540px;
+	background-color: rgb(17, 119, 253);
+}
