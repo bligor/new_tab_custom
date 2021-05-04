@@ -1,11 +1,23 @@
-body {
-	background-color: #0f0f0f;
+.box {
+  height: 230px;
+  width: 230px;
 }
 
-.box {
-	height: 250px;
-	width: 250px;
-	margin-top: 20px;
-	margin-left: 540px;
-	background-color: rgb(17, 119, 253);
+a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: inherit !important; /* blue colors for links too */
+  text-decoration: inherit !important; /* no underline */
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #0f0f0f !important;
+}
+
+.container{
+	margin-left: 100px !important;
+	margin-right: 100px !important;
+	max-width: 100% !important;
 }
