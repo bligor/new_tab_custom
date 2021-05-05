@@ -24,27 +24,15 @@ $(document).ready(function () {
                     $('<a>').prop({
                         id: 'a' + index,
                         href: box.url,
-                        //innerHTML: function() { if(text){box.title}}
-                    })
+                    }).append(
+                        $('<label>').prop({
+                            id: 'label' + index,
+                            innerHTML: box.title
+                        })
+                    )
                 );
             });
         });
-});
 
-function getPosition(order) {
-    console.log(order);
-    switch (order) {
-        case 1:
-            console.log("wer 1");
-            return 'margin-top: 20; margin-left: 20';
-        case 2:
-            console.log("wer 2");
-            return 'margin-top: 20; margin-left: 270';
-        case 3:
-            console.log("wer 3");
-            return 'margin-top: 20; margin-left: 520';
-        default:
-            console.log("wer");
-            return 'margin-top: 20; margin-left: 520';
-    }
-}
+    jQuery.event.trigger({ type: 'keypress', which: 76, ctrlKey: true });
+});

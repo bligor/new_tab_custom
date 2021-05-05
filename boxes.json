@@ -1,31 +1,31 @@
 {
     "boxes": [
         {
-            "title": "Gmail",
+            "title": "Gml",
             "color": "rgb(236, 173, 38)",
             "url": "https://mail.google.com",
             "order": 1
         },
         {
-            "title": "Twitter",
+            "title": "Twt",
             "color": "rgb(17, 119, 253)",
             "url": "https://twitter.com/home",
             "order": 2
         },
         {
-            "title": "Youtube",
+            "title": "Ytb",
             "color": "rgb(247, 25, 36)",
             "url": "https://www.youtube.com/",
             "order": 3
         },
         {
-            "title": "Twitch",
+            "title": "Twh",
             "color": "rgb(211, 44, 226)",
             "url": "https://www.twitch.tv/",
             "order": 4
         },
         {
-            "title": "Amazon",
+            "title": "Amn",
             "color": "rgb(236, 127, 38)",
             "url": "https://www.amazon.es/",
             "order": 5
