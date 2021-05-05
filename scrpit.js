@@ -16,7 +16,7 @@ $(document).ready(function () {
                     $('<div>').prop({
                         id: 'box' + index,
                         style: 'background-color: ' + box.color,
-                        className: 'box col-3 mt-5 ml-5'
+                        className: 'box col-6 col-md-3 mt-5 ml-2 mr-2'
                     })
                 );
 
@@ -34,5 +34,4 @@ $(document).ready(function () {
             });
         });
 
-    jQuery.event.trigger({ type: 'keypress', which: 76, ctrlKey: true });
 });

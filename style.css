@@ -24,7 +24,10 @@ body {
 }
 
 .m {
-  margin-left: 100px !important;
-  margin-right: 100px !important;
+  margin: 100px !important;
   max-width: 100% !important;
+}
+
+.row{
+  justify-content: center;
 }
