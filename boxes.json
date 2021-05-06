@@ -29,6 +29,12 @@
             "color": "rgb(236, 127, 38)",
             "url": "https://www.amazon.es/",
             "order": 5
+        },
+        {
+            "title": "iClo",
+            "color": "rgb(45, 233, 247)",
+            "url": "https://www.icloud.com/",
+            "order": 6
         }
     ]
 }
