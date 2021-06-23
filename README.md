@@ -1,3 +1,4 @@
 # new_tab_custom
 
-Copy and edited from new tab orslok
+Is a repository with a "home page" project for firefox, chrome or safari.
+Is a simple personal project
