@@ -35,6 +35,24 @@
             "color": "rgb(45, 233, 247)",
             "url": "https://www.icloud.com/",
             "order": 6
+        },
+        {
+            "title": "Tumblr",
+            "color": "001935",
+            "url": "https://www.tumblr.com/dashboard",
+            "order": 7
+        },
+        {
+            "title": "Pinterest",
+            "color": "E5001E",
+            "url": "https://www.pinterest.es/",
+            "order": 8
+        },
+        {
+            "title": "Netflix",
+            "color": "E50914",
+            "url": "https://www.netflix.com/",
+            "order": 9
         }
     ]
 }

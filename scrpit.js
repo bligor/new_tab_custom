@@ -4,23 +4,29 @@ $(document).ready(function () {
             return response.json();
         })
         .then(data => {
-            $('.container').append(
-                $('<div>').prop({
-                    className: 'row'
-                })
-            );
+
+            var row = 0;
 
             data.boxes.forEach((box, index) => {
+                var i = index + 1;
+                if (i == 1) {
+                    createRow(row);
+                }
 
-                $('.row').addClass('mt-5').append(
+                $('#row' + row).append(
                     $('<div>').prop({
                         id: 'box' + index,
                         style: 'background-color: ' + box.color,
-                        className: 'box col-6 col-md-3 mt-5 ml-3 mr-3'
-                    })
+                        className: 'col-sm-6 col-md-3 ml-3 mr-3'
+                    }).append(
+                        $('<div>').prop({
+                            id: 'bb' + index,
+                            className: 'box '
+                        })
+                    )
                 );
 
-                $('#box' + index).append(
+                $('#bb' + index).append(
                     $('<a>').prop({
                         id: 'a' + index,
                         href: box.url,
@@ -31,7 +37,29 @@ $(document).ready(function () {
                         })
                     )
                 );
+
+                if (multiple(i, 3)) {
+                    row += 1;
+                    createRow(row);
+                }
             });
         });
 
 });
+
+function multiple(valor, multiple) {
+    resto = valor % multiple;
+    if (resto == 0)
+        return true;
+    else
+        return false;
+}
+
+function createRow(row){
+    $('.container').append(
+        $('<div>').prop({
+            id: "row" + row,
+            className: 'row mt-5'
+        })
+    );
+}
