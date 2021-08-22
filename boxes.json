@@ -38,19 +38,19 @@
         },
         {
             "title": "Tumblr",
-            "color": "001935",
+            "color": "rgb(0, 25, 53)",
             "url": "https://www.tumblr.com/dashboard",
             "order": 7
         },
         {
             "title": "Pinterest",
-            "color": "E5001E",
+            "color": "rgb(229, 0, 30)",
             "url": "https://www.pinterest.es/",
             "order": 8
         },
         {
             "title": "Netflix",
-            "color": "E50914",
+            "color": "rgb(229, 9, 20)",
             "url": "https://www.netflix.com/",
             "order": 9
         }
