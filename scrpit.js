@@ -16,7 +16,7 @@ $(document).ready(function () {
                 $('#row' + row).append(
                     $('<div>').prop({
                         id: 'box' + index,
-                        style: 'background-color: ' + 'rgb(17, 119, 253)', //box.color,
+                        style: 'background-color: ' + /*'rgb(17, 119, 253)',*/ box.color,
                         className: 'col-sm-6 col-md-3 ml-3 mr-3'
                     }).append(
                         $('<div>').prop({
