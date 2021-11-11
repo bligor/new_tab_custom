@@ -37,21 +37,21 @@
             "order": 6
         },
         {
-            "title": "Tumblr",
-            "color": "rgb(0, 25, 53)",
-            "url": "https://www.tumblr.com/dashboard",
+            "title": "HBO",
+            "color": "rgb(40, 29, 110)",
+            "url": "https://play.hbomax.com/",
             "order": 7
-        },
-        {
-            "title": "Pinterest",
-            "color": "rgb(229, 0, 30)",
-            "url": "https://www.pinterest.es/",
-            "order": 8
         },
         {
             "title": "Netflix",
             "color": "rgb(229, 9, 20)",
             "url": "https://www.netflix.com/",
+            "order": 8
+        },
+        {
+            "title": "Disney+",
+            "color": "rgb(6, 141, 255)",
+            "url": "https://www.disneyplus.com/select-profile",
             "order": 9
         }
     ]
