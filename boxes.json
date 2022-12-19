@@ -7,33 +7,33 @@
             "order": 1
         },
         {
-            "title": "Twt",
-            "color": "rgb(17, 119, 253)",
-            "url": "https://twitter.com/home",
+            "title": "iClo",
+            "color": "rgb(45, 233, 247)",
+            "url": "https://www.icloud.com/",
             "order": 2
         },
         {
-            "title": "Ytb",
-            "color": "rgb(247, 25, 36)",
-            "url": "https://www.youtube.com/",
+            "title": "Twt",
+            "color": "rgb(17, 119, 253)",
+            "url": "https://tweetdeck.twitter.com/",
             "order": 3
-        },
-        {
-            "title": "Twh",
-            "color": "rgb(211, 44, 226)",
-            "url": "https://www.twitch.tv/",
-            "order": 4
         },
         {
             "title": "Amn",
             "color": "rgb(236, 127, 38)",
             "url": "https://www.amazon.es/",
+            "order": 4
+        },
+        {
+            "title": "Ytb",
+            "color": "rgb(247, 25, 36)",
+            "url": "https://www.youtube.com/",
             "order": 5
         },
         {
-            "title": "iClo",
-            "color": "rgb(45, 233, 247)",
-            "url": "https://www.icloud.com/",
+            "title": "Twh",
+            "color": "rgb(211, 44, 226)",
+            "url": "https://www.twitch.tv/",
             "order": 6
         },
         {
@@ -43,16 +43,22 @@
             "order": 7
         },
         {
-            "title": "Netflix",
+            "title": "Net",
             "color": "rgb(229, 9, 20)",
             "url": "https://www.netflix.com/",
             "order": 8
         },
         {
-            "title": "Disney+",
+            "title": "Din+",
             "color": "rgb(6, 141, 255)",
             "url": "https://www.disneyplus.com/select-profile",
             "order": 9
+        },
+        {
+            "title": "Crh",
+            "color": "rgb(255, 153, 51)",
+            "url": "https://www.crunchyroll.com/",
+            "order": 5
         }
     ]
 }
