@@ -7,6 +7,8 @@ $(document).ready(function () {
 
             var row = 0;
 
+            data.boxes.sort((a, b) => parseFloat(a.order) - parseFloat(b.order));
+
             data.boxes.forEach((box, index) => {
                 var i = index + 1;
                 if (i == 1) {

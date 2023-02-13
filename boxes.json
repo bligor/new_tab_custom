@@ -10,7 +10,7 @@
             "title": "iClo",
             "color": "rgb(45, 233, 247)",
             "url": "https://www.icloud.com/",
-            "order": 2
+            "order": 5
         },
         {
             "title": "Twt",
@@ -22,13 +22,13 @@
             "title": "Amn",
             "color": "rgb(236, 127, 38)",
             "url": "https://www.amazon.es/",
-            "order": 4
+            "order": 2
         },
         {
             "title": "Ytb",
             "color": "rgb(247, 25, 36)",
             "url": "https://www.youtube.com/",
-            "order": 5
+            "order": 8
         },
         {
             "title": "Twh",
@@ -46,7 +46,7 @@
             "title": "Net",
             "color": "rgb(229, 9, 20)",
             "url": "https://www.netflix.com/",
-            "order": 8
+            "order": 4
         },
         {
             "title": "Din+",
@@ -55,10 +55,16 @@
             "order": 9
         },
         {
+            "title": "Tck",
+            "color": "rgb(71, 114, 250)",
+            "url": "https://ticktick.com",
+            "order": 10
+        },
+        {
             "title": "Crh",
             "color": "rgb(255, 153, 51)",
             "url": "https://www.crunchyroll.com/",
-            "order": 5
+            "order": 11
         }
     ]
 }
