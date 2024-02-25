@@ -19,6 +19,12 @@
             "order": 3
         },
         {
+            "title": "Rdt",
+            "color": "rgb(250, 118, 10)",
+            "url": "https://www.reddit.com",
+            "order": 12
+        },
+        {
             "title": "Amn",
             "color": "rgb(236, 127, 38)",
             "url": "https://www.amazon.es/",
@@ -55,9 +61,9 @@
             "order": 9
         },
         {
-            "title": "Tck",
-            "color": "rgb(71, 114, 250)",
-            "url": "https://ticktick.com",
+            "title": "Prm",
+            "color": "rgb(105, 140, 250)",
+            "url": "https://primevideo.com",
             "order": 10
         },
         {
