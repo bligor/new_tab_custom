@@ -71,6 +71,24 @@
             "color": "rgb(255, 153, 51)",
             "url": "https://www.crunchyroll.com/",
             "order": 11
+        },
+        {
+            "title": "Was",
+            "color": "rgb(124,252,0)",
+            "url": "https://web.whatsapp.com/",
+            "order": 13
+        },
+        {
+            "title": "Tel",
+            "color": "rgb(32,178,170)",
+            "url": "https://web.telegram.org/k/",
+            "order": 14
+        },
+        {
+            "title": "Dis",
+            "color": "rgb(114,137,218)",
+            "url": "https://discord.com/channels/@me",
+            "order": 14
         }
     ]
 }
