@@ -1,23 +1,66 @@
 {
     "boxes": [
         {
-            "title": "Gml",
+            "title": "Gmail",
             "color": "rgb(236, 173, 38)",
             "url": "https://mail.google.com",
+            "order": 3
+        },
+        {
+            "title": "Calendar",
+            "color": "rgb(236, 173, 38)",
+            "url": "https://calendar.google.com/calendar",
+            "order": 2
+        },
+        {
+            "title": "Drive",
+            "color": "rgb(236, 173, 38)",
+            "url": "https://drive.google.com/drive/home",
             "order": 1
         },
         {
-            "title": "iClo",
-            "color": "rgb(45, 233, 247)",
-            "url": "https://www.icloud.com/",
+            "title": "Notes",
+            "color": "rgb(247, 25, 36)",
+            "url": "https://www.icloud.com/notes/",
+            "order": 4
+        },
+        {
+            "title": "Tasks",
+            "color": "rgb(236, 173, 38)",
+            "url": "https://calendar.google.com/calendar/u/0/r/tasks",
             "order": 5
+        },
+        {
+            "title": "Maps",
+            "color": "rgb(236, 173, 38)",
+            "url": "https://www.google.com/maps",
+            "order": 6
+        },
+        {
+            "title": "Ytb",
+            "color": "rgb(247, 25, 36)",
+            "url": "https://www.youtube.com/",
+            "order": 7
+        },
+        {
+            "title": "Twh",
+            "color": "rgb(211, 44, 226)",
+            "url": "https://www.twitch.tv/",
+            "order": 8
         },
         {
             "title": "Twt",
             "color": "rgb(17, 119, 253)",
             "url": "https://twitter.com/",
             "order": 3
+        }
+        /*{
+            "title": "iClo",
+            "color": "rgb(45, 233, 247)",
+            "url": "https://www.icloud.com/",
+            "order": 5
         },
+        
         {
             "title": "Rdt",
             "color": "rgb(250, 118, 10)",
@@ -30,18 +73,8 @@
             "url": "https://www.amazon.es/",
             "order": 2
         },
-        {
-            "title": "Ytb",
-            "color": "rgb(247, 25, 36)",
-            "url": "https://www.youtube.com/",
-            "order": 8
-        },
-        {
-            "title": "Twh",
-            "color": "rgb(211, 44, 226)",
-            "url": "https://www.twitch.tv/",
-            "order": 6
-        },
+        
+        
         {
             "title": "HBO",
             "color": "rgb(40, 29, 110)",
@@ -89,6 +122,6 @@
             "color": "rgb(114,137,218)",
             "url": "https://discord.com/channels/@me",
             "order": 14
-        }
+        }*/
     ]
 }
